@@ -1,1 +1,1 @@
-Wir haben momentan geschlossen.
+
