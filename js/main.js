@@ -43,7 +43,7 @@ $(function() {
 	fetch('https://raw.githubusercontent.com/drheier/drheier.github.io/master/news.md', {'method': 'GET'}).then(s => {
 	  if(s.status === 200) {
 		s.text().then(t => {
-		  if (t) {
+		  if (t && t != "\n") {
 			$('#news').text(t)
 			$('#news-alert').css('display', 'block') 
 		  }
