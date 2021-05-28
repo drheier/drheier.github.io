@@ -1,2 +1,1 @@
-Mich kannst du in news.md verändern.
-Wenn ich leer bin und nur eine Zeile habe, sieht man mich nicht mehr.
+Urlaub: 26.07.–13.08.2021.  Ab 16.08.2021 sind wir wieder für Sie da.
