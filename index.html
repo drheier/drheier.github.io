@@ -27,13 +27,12 @@
 </head>
 
 <body>
-	<div id="news-alert" class="alert alert-warning text-center mb-0" style="display: none;"
-							role="alert">
-							<strong>Neuigkeiten: </strong>
-							<span id="news"></span>
-						</div>
+	<div id="news-alert" class="alert alert-warning text-center mb-0" style="display: none;" role="alert">
+		<strong>Neuigkeiten: </strong>
+		<span id="news"></span>
+	</div>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark probootstrap-navbar-dark">
-	<div class="container">
+		<div class="container">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-nav"
 				aria-controls="probootstrap-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -52,34 +51,35 @@
 	<header role="banner" class="probootstrap-header py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 mb-4">
-					<a href="index.html" class="mr-auto"><img src="images/logo.png" width="212"
-							class="hires" alt="Free Template by uiCookies"></a>
+				<div class="col-md-7 mb-4">
+					<!-- <a href="index.html" class="mr-auto"><img src="images/logo.png" width="212" -->
+					<!-- class="hires" alt="Free Template by uiCookies"></a> -->
+					<h1 class="display-4">Praxis Dr. Bodo Heier</h1>
+					<p class="lead text-secondary">Facharzt für Allgemeinmedizin</p>
 				</div>
 				<div class="col-md-9">
-					<div class="float-md-right float-none">
-						<div class="probootstrap-contact-phone d-flex align-items-top mb-3 float-left">
-							<span class="icon mr-2"><i class="icon-phone"></i></span>
-							<span class="probootstrap-text"> 01575 - 57775 <small class="d-block"><a href="tel:01575-57775"
-										class="arrow-link">Telefon <i
-											class="icon-chevron-right"></i></a></small></span>
-						</div>
+					<!-- <div class="float-md-right float-none"> -->
+					<div class="probootstrap-contact-phone d-flex align-items-top mb-3 float-left">
+						<span class="icon mr-2"><i class="icon-phone"></i></span>
+						<span class="probootstrap-text"> 0571 - 57775 <small class="d-block"><a href="tel:01575-57775"
+									class="arrow-link">Telefon <i class="icon-chevron-right"></i></a></small></span>
 					</div>
+					<!-- </div> -->
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<section class="mb-5">
+	<!-- <section class="mb-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 mb-5">
 					<h1 class="display-4">Praxis Dr. Bodo Heier</h1>
-					<p class="lead text-secondary">Facharzt für <a href="#">Allgemeinmedizin</a></p>
+					<p class="lead text-secondary">Facharzt für Allgemeinmedizin</p>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="probootstrap-features-1">
 		<div class="container">
@@ -93,17 +93,35 @@
 				<div class="col-md probootstrap-opening">
 					<h2 class="text-uppercase mb-3">Sprechzeiten<span>Vor Ort</span></h2>
 					<ul class="list-unstyled probootstrap-schedule">
-						<li>Mon <span>9:00 - 14:00</span></li>
-						<li>Die & Don <span class="text-right">9:00 - 13:00<br>16:00 - 18:00</span></li>
-						<li>Mit & Fri <span>9:00 - 12:00</span></li>
+						<li>Mo <span>9:00 - 13:00</span></li>
+						<li>Di & Do <span class="text-right">9:00 - 12:30<br>16:00 - 18:00</span></li>
+						<li>Mi <span class="text-right">9:00 - 12:00</span></li>
+						<li>Do <span class="text-right">9:00 - 13:00<br>16:00 - 18:00</span></li>
+						<li>Fr <span>9:00 - 12:00</span></li>
 					</ul>
+					<p class="text-white mt-1"><b>Achtung:</b> Die Haupteingangstür des Praxisgebäudes öffnet sich erst
+						um
+						07:30 Uhr
+						automatisch.</p>
 				</div>
 				<div class="col-md probootstrap-opening bg-primary">
-					<h2 class="text-uppercase mb-3">Sprechzeiten<span>Telefonisch</span></h2>
-					<ul class="list-unstyled probootstrap-schedule">
-						<li>Mon <span>13:00 - 13:00</span></li>
-						<li>Die & Don <span>13:00 - 13:30<br>17:00 - 18:00</span></li>
-					</ul>
+					<h2 class="text-uppercase mb-3">Neuigkeiten
+						<span>Urlaub und mehr</span>
+					</h2>
+					<h2>Urlaubsplan 2025</h2>
+					<p class="text-white mt-1">
+						04.08.2025 - 22.08.2025 <br>
+						20.10.2025 - 31.10.2025 <br>
+						15.12.2025 - 19.12.2025 <br>
+						<b>
+							Änderungen vorbehalten
+						</b> <br> <br>
+
+					</p>
+					<div>
+						<p class="text-white" style="font-size: 24px !important;">
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -132,12 +150,12 @@
 							<li class="nav-item"><a class="nav-link" id="notfalldienst-tab" data-toggle="tab"
 									href="#notfalldienst" role="tab" aria-controls="notfalldienst"
 									aria-selected="false">Notfalldienst</a></li>
-							<li class="nav-item"><a class="nav-link" id="videosprechstunde-tab" data-toggle="tab"
-									href="#videosprechstunde" role="tab" aria-controls="videosprechstunde"
-									aria-selected="false">Videosprechstunde</a></li>
+							<li class="nav-item"><a class="nav-link" id="prexisvertretungen-tab" data-toggle="tab"
+									href="#praxisvertretungen" role="tab" aria-controls="praxisvertretungen"
+									aria-selected="false">Praxisvertretungen</a></li>
 						</ul>
-						<p><a id="impressum-tab" data-toggle="tab" href="#impressum" role="tab"
-								aria-controls="impressum" aria-selected="false" class="arrow-link text-white">Impressum
+						<p><a id="impressum-tab" href="/impressum.html" role="tab"
+								class="arrow-link text-white">Impressum
 								<i class="icon-chevron-right"></i></a></p>
 					</div>
 				</div>
@@ -150,24 +168,48 @@
 
 							<div class="col-lg-6 col-md-6">
 								<div class="media d-block mb-4 text-left probootstrap-media">
-									<div class="probootstrap-icon mb-3"><span
-											class="flaticon-shield-with-cross display-4"></span></div>
+									<div class="probootstrap-icon mb-3"><span class="flaticon-doctor display-4"></span>
+									</div>
 									<div class="media-body">
-										<h3 class="h5 mt-0 text-secondary">Quality &amp; Safety</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+										<h3 class="h5 mt-0 text-secondary">Fachweiterbildungen</h3>
+										<ul>
+											<li>
+												Naturheilkunde
+											</li>
+											<li>
+												Geriatrische Grundversorgung
+											</li>
+											<li>
+												Psychosomatische Grundversorgung
+											</li>
+											<li>
+												Palliativmedizin
+											</li>
+										</ul>
+										<!-- <p>Palliativmedizin, Naturheilkunde, Gerereatrische </p> -->
 									</div>
 								</div>
 							</div>
+
+
 							<div class="col-lg-6 col-md-6">
 								<div class="media d-block mb-4 text-left probootstrap-media">
 									<div class="probootstrap-icon mb-3"><span
-											class="flaticon-first-aid-kit display-4"></span></div>
+											class="flaticon-shield-with-cross display-4"></span></div>
 									<div class="media-body">
-										<h3 class="h5 mt-0 text-secondary">Immidiate Service</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+										<h3 class="h5 mt-0 text-secondary">Vorsorgeuntersuchungen</h3>
+										<ul>
+											<li>
+												Krebsvorsorge Mann
+											</li>
+											<li>Hautkrebsvorsorge</li>
+											<li>Gesundheitsvorsorge</li>
+										</ul>
+										<h3 class="h5 text-secondary">Impfberatung / Reiseimpfungen</h3>
 									</div>
 								</div>
 							</div>
+
 
 							<div class="col-lg-6 col-md-6">
 								<div class="media d-block mb-4 text-left probootstrap-media">
@@ -176,18 +218,21 @@
 									<div class="media-body">
 										<h3 class="h5 mt-0 text-secondary">Umfassende technische Austattung</h3>
 										<p>
-											EKG, Sonographie, umfangreiches Laborspektrum im Gemeinschaftslabor,
+											EKG, Sonographie, Lungenfunktionsdiagnostik, umfangreiches Laborspektrum im
+											Gemeinschaftslabor,
 											Basisdiagnostik im Akutlabor.</p>
 									</div>
 								</div>
 							</div>
+
 							<div class="col-lg-6 col-md-6">
 								<div class="media d-block mb-4 text-left probootstrap-media">
-									<div class="probootstrap-icon mb-3"><span class="flaticon-doctor display-4"></span>
-									</div>
+									<div class="probootstrap-icon mb-3"><span
+											class="flaticon-first-aid-kit display-4"></span></div>
 									<div class="media-body">
-										<h3 class="h5 mt-0 text-secondary">Erfahrene Ärzte</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+										<h3 class="h5 mt-0 text-secondary">Notfalldienst</h3>
+										<p>Der Notfalldienst außerhalb unserer Sprechzeiten ist zu erreichen unter der
+											Nummer <a href="tel:116117">116 117</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -204,19 +249,12 @@
 									innerhalb von 2 Wochen einen Termin zu ermöglichen.
 								</p>
 								<p>
-									Montag Nachmittag ist <b> keine </b> Sprechstunde. Nur in <b> dringenden Notfällen
-									</b> sind wir bis 18:00
-									Uhr unter Tel. 0170-98 34 291 zu erreichen. <br>
-
-									Dienstag und Donnerstag von 13.30-16:00 Mittagspause. Nur in <b> dringenden
-										Notfällen </b> sind wir unter
-									Tel. 0170-98 34 291 zu erreichen.
-
+									Montag, Mittwoch, Freitag Nachmittag ist <b> keine </b> Sprechstunde.
+									<br>
+									Dienstag und Donnerstag ist von 13.00-16:00 Mittagspause.
 								</p>
-								<h3>Telefonische Sprechzeiten</h3>
-								<p>
-									In diesen Zeiten steht Dr. Heier Ihnen für ein kurzes Telefonat zur Verfügung.
-								</p>
+								<h3>Sprechzeiten Dr. Bodo Heier</h3>
+
 								<table class="table table-borderless table-responsive">
 									<thead>
 										<tr>
@@ -230,19 +268,52 @@
 									</thead>
 									<tbody>
 										<tr>
-											<th scope="row" class="border-right d-none d-md-table-cell">Mittag</th>
-											<td>13:00 – 13:30</td>
-											<td>13:00 – 13:30</td>
-											<td> – </td>
-											<td>13:00 – 13:30</td>
+											<th scope="row" class="border-right d-none d-md-table-cell">Vormittags</th>
+											<td>09:00 – 13:00</td>
+											<td>09:00 – 12:30</td>
+											<td>09:00 – 12:00</td>
+											<td>09:00 – 13:00</td>
 											<td> – </td>
 										</tr>
 										<tr>
-											<th scope="row" class="border-right d-none d-md-table-cell">Abend</th>
+											<th scope="row" class="border-right d-none d-md-table-cell">Nachmittags</th>
 											<td> – </td>
-											<td>17:00 – 18:00</td>
 											<td> – </td>
-											<td>17:00 – 18:00</td>
+											<td> – </td>
+											<td>16:00 – 18:00</td>
+											<td> – </td>
+										</tr>
+									</tbody>
+								</table>
+
+								<h3>Sprechzeiten Frau Kristin Livden Vogt</h3>
+
+								<table class="table table-borderless table-responsive">
+									<thead>
+										<tr>
+											<th scope="col" class="border-right d-none d-md-table-cell">Zeiten</th>
+											<th scope="col">Montag</th>
+											<th scope="col">Dienstag</th>
+											<th scope="col">Mittwoch</th>
+											<th scope="col">Donnerstag</th>
+											<th scope="col">Freitag</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th scope="row" class="border-right d-none d-md-table-cell">Vormittags</th>
+											<td>09:00 – 13:00</td>
+											<td>09:00 – 12:30</td>
+											<td> – </td>
+											<td>09:00 – 13:00</td>
+											<td>09:00 – 12:00</td>
+										</tr>
+										<tr>
+											<th scope="row" class="border-right d-none d-md-table-cell">Nachmittags</th>
+											<td> – </td>
+											<td>16:00 – 18:00</td>
+											<td> – </td>
+											<td> – </td>
 											<td> – </td>
 										</tr>
 									</tbody>
@@ -258,9 +329,10 @@
 								<h2>Blutentnahme</h2>
 								<p>Blutentnahmezeiten sind täglich von 7:30 bis 8:30 Uhr.
 									<br> <br>
+									<!--
 									Abfrage von Laborergebnissen: Montag, Dienstag und Donnerstag zwischen 13:00 und
 									13:30 Uhr.
-
+								-->
 								</p>
 
 							</div>
@@ -272,10 +344,33 @@
 						<div class="row mb-5">
 							<div class="col-12">
 								<h2>Bestellungen von Rezepten und Überweisungen</h2>
-								<p>Rezepte und Überweisungen bitte zwischen 8:30 und 11:00 Uhr bestellen. <br> <br>
+								<p>
+									<!-- Rezepte und Überweisungen bitte zwischen 8:30 und 11:00 Uhr bestellen. <br> <br> -->
 									Abholung
-									von Bestellungen täglich von 11:00 bis 13:00 Uhr, Dienstags und Donnerstags
+									von Bestellungen täglich von 10:00 bis 13:00 Uhr, Dienstags und Donnerstags
 									zusätzlich von 16:00 bis 18:00 Uhr.
+									<br><br>
+									Achten Sie bitte darauf vor Bestellung Ihre Gesundheitskarte in der Praxis einlesen
+									zu lassen. <br>
+
+									Bitte nutzen Sie unsere Praxis Email ausschließlich für die Bestellung von
+									Folgerezepten, Überweisungen und Folgeverordnungen. Bei allen anderen Anliegen
+									nehmen Sie bitte telefonisch Kontakt auf. <br><br>
+
+									Die Bestellungen werden innerhalb von zwei Werktagen bearbeitet. Achten Sie dabei
+									bitte auch auf die Urlaubszeiten.
+
+
+									<br>
+									<br>
+									<br>
+									<a class="btn btn-primary"
+										href=" mailto:info@dr-heier-minden.de?subject=%5BBestellungen%5D&body=Sehr%20geehrter%20Herr%20Dr.%20Heier%2C%0D%0Ahiermit%20m%C3%B6chte%20ich%20folgendes%20bestellen%3A%0D%0A%0D%0A%0D%0A---%0D%0A%0D%0ARezepte%3A%20keine%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%C3%9Cberweisungen%3A%20keine%0D%0A(mit%20Angabe%20der%20Fachrichtung%20und%20dem%20Grund%20der%20%C3%9Cberweisung)%0D%0A%0D%0A%0D%0A%0D%0A%0D%0AVerordnungen%3A%20keine%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A---%0D%0A%0D%0A%0D%0AMit%20freundlichen%20Gr%C3%BC%C3%9Fen%0D%0A%0D%0A%0D%0AName%2C%20Geburtsdatum">
+										Bestellformular
+										öffnen</a>
+									<br>
+									<br>
+									alternativ senden Sie uns bitte eine Freitext-Email an info@dr-heier-minden.de
 								</p>
 							</div>
 
@@ -285,7 +380,59 @@
 					<div class="tab-pane fade" id="notfalldienst" role="tabpanel" aria-labelledby="notfalldienst-tab">
 						<div class="row mb-5">
 							<div class="col-12">
-								<h2>Notfalldienst</h2>
+								<h2>Kassenärztliche Notfallpraxis im Johannes-Wesling-Klinikum</h2>
+								<p>
+									Hans-Nolte-Straße 1, 32429 Minden
+									<!-- Mo, Di, Do von 18.00 bis 22.00 Uhr <br>
+									Mi, Fr von 13.00 bis 22.00 Uhr <br>
+									Sa, So und an Feiertagen von 08.00 bis 22.00 Uhr <br> -->
+
+								</p>
+								<table class="table table-borderless col-12 mx-auto">
+									<tbody class="text-left text-muted">
+										<tr>
+											<td class="text-right">Montag</td>
+											<td class="border-left">ab 18.00 Uhr bis 22.00 Uhr</td>
+										</tr>
+										<tr>
+											<td class="text-right">Dienstag</td>
+											<td class="border-left">ab 18.00 Uhr bis 22.00 Uhr</td>
+										</tr>
+										<tr>
+											<td class="text-right">Mittwoch</td>
+											<td class="border-left">ab 13.00 Uhr bis 22.00 Uhr</td>
+										</tr>
+										<tr>
+											<td class="text-right">Donnerstag</td>
+											<td class="border-left">ab 18.00 Uhr bis 22.00 Uhr</td>
+										</tr>
+										<tr>
+											<td class="text-right">Freitag</td>
+											<td class="border-left">ab 13.00 Uhr bis 22.00 Uhr</td>
+										</tr>
+										<tr>
+											<td class="text-right">Samstag</td>
+											<td class="border-left">ab 08.00 Uhr bis 22.00 Uhr</td>
+										</tr>
+										<tr>
+											<td class="text-right">Sonntag</td>
+											<td class="border-left">ab 08.00 Uhr bis 22.00 Uhr</td>
+										</tr>
+										<tr>
+											<td class="text-right">Feiertag</td>
+											<td class="border-left">ab 08.00 Uhr bis 22.00 Uhr</td>
+										</tr>
+									</tbody>
+								</table>
+
+
+								<h2>Ärztlicher Bereitschaftsdienst</h2>
+								<p>
+									<b>Sollten sie nicht im Stande sein die Notfallpraxis aufzusuchen, wenden Sie
+										sich
+										an
+										die Notfallnummer: <a class="h2" href="tel:116117">116 117</a></b>
+								</p>
 
 								<table class="table table-borderless col-12 mx-auto">
 									<tbody class="text-left text-muted">
@@ -309,166 +456,37 @@
 											<td class="text-right">Freitag</td>
 											<td class="border-left">ab 13.00 Uhr bis Montag 8.00 Uhr</td>
 										</tr>
+										<tr>
+											<td class="text-right">Samstag, Sonntag</td>
+											<td class="border-left">ganztägig bis Montag 8.00 Uhr</td>
+										</tr>
 									</tbody>
 								</table>
-								<p>
-
-									<b>Wenden sie sich bitte in Notfällen an den ärztlichen Notfalldienst unter der
-										Nummer:
-										<br>
-										116 117
-									</b>
-								</p>
-								<h3>Kassenärztlicher Notfalldienst</h3>
-								<p>
-									Johannes-Wesling-Klinikum <br>
-									Mo, Di, Do von 18.00 bis 22.00 Uhr <br>
-									Mi, Fr von 13.00 bis 22.00 Uhr <br>
-									Sa, So und an Feiertagen von 08.00 bis 22.00 Uhr <br>
-									Hausbesuche unter Tel. 116 117
-
-								</p>
 							</div>
 
 						</div>
 					</div>
 
-					<div class="tab-pane fade" id="videosprechstunde" role="tabpanel"
-						aria-labelledby="videosprechstunde-tab">
+					<div class="tab-pane fade" id="praxisvertretungen" role="tabpanel"
+						aria-labelledby="praxisvertretungen-tab">
 						<div class="row mb-5">
 							<div class="col-12">
-								<h2>Videosprechstunde</h2>
-								<p>Wir bieten für unsere Patienten eine Videosprechstunde. Bitte sprechen sie uns dazu
-									bei Interesse an.
-								</p>
-							</div>
+								<h2>Praxisvertretungen</h2>
+								<b>
+									Im Urlaubsfall wenden Sie sich bitte an eine der folgenden Hausarztpraxen:
+								</b>
+								<br>
+								<br>
+								<br>
 
-						</div>
-					</div>
-
-					<div class="tab-pane fade" id="impressum" role="tabpanel" aria-labelledby="impressum-tab">
-						<div class="row mb-5">
-							<div class="col-12">
-								<h2>Videosprechstunde</h2>
-								<p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;'>
-										<strong><u><span
-													style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>Impressum</span></u></strong>
-									</p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<span style='font-size:15px;font-family:"Arial",sans-serif;color:black;'><br>
-											<strong><span style='font-family:"Arial",sans-serif;'>Inhaltlich
-													verantwortlich gem&auml;&szlig; &sect;6 MDStV:</span></strong><br>
-											Dr. med. Bodo Heier <br> S&uuml;dring 13<br> 32429 Minden<br> <img
-												src="data:image/png;base64,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"
-												alt="image" width="8"><br> <strong><span
-													style='font-family:"Arial",sans-serif;'>Zust&auml;ndige
-													Kammer:</span></strong><br> &Auml;rztekammer Nordrhein<br> <img
-												src="data:image/png;base64,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"
-												alt="image" width="8"><strong><br>&nbsp;</strong><img
-												src="data:image/png;base64,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"
-												alt="image" width="8"><br> <strong><span
-													style='font-family:"Arial",sans-serif;'>Berufsrechtliche
-													Regelungen:</span></strong><br> <a
-												href="https://www.aekno.de/page.asp?pageID=57"
-												target="_blank"><strong><span
-														style="color:#4C3C2D;">Berufsordnung</span></strong></a><br>
-											<strong>Haftungsausschluss</strong></span>
-									</p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<span
-											style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span>
-									</p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<strong><span
-												style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>Inhalt
-												des Onlineangebotes</span></strong><strong><span
-												style='font-size:15px;font-family:"Arial",sans-serif;color:black;'><br>&nbsp;</span></strong><span
-											style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>Die
-											Facharztpraxis Dr. med. Bodo Heier &uuml;bernimmt keinerlei Gew&auml;hr
-											f&uuml;r die Aktualit&auml;t, Richtigkeit, Vollst&auml;ndigkeit oder
-											Qualit&auml;t der bereitgestellten Informationen. Haftungsanspr&uuml;che
-											gegen die Praxis Dr. Heier, die sich auf Sch&auml;den materieller oder
-											ideeller Art beziehen, welche durch die Nutzung oder Nichtnutzung der
-											dargebotenen Informationen bzw. durch die Nutzung fehlerhafter oder
-											unvollst&auml;ndiger Informationen verursacht wurde, sind grunds&auml;tzlich
-											ausgeschlossen.</span></p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<strong><span
-												style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>Verweise
-												und Links</span></strong><span
-											style='font-size:15px;font-family:"Arial",sans-serif;color:black;'><br>&nbsp;Sofern auf Verweisziele
-											(&quot;Links&quot;) direkt oder indirekt verwiesen wird, die au&szlig;erhalb
-											des Verantwortungsbereiches der Praxis Dr. Heier liegen, haftet die Praxis
-											Dr. Heier nur dann, wenn sie von den Inhalten Kenntnis hat und es technisch
-											m&ouml;glich oder zumutbar w&auml;re, die Nutzung im Falle rechtswidriger
-											Inhalte zu verhindern. F&uuml;r dar&uuml;ber hinausgehende Inhalte und
-											insbesondere f&uuml;r Sch&auml;den, die aus der Nutzung oder Nichtnutzung
-											der so dargebotenen Informationen entstehen, haftet allein der Anbieter
-											dieser Seiten, nicht derjenige, der &uuml;ber Links auf die jeweilige
-											Ver&ouml;ffentlichung lediglich verweist.</span></p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<strong><span
-												style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>Urheberrecht
-												und Recht am eigenen Bild</span></strong><span
-											style='font-size:15px;font-family:"Arial",sans-serif;color:black;'><br>&nbsp;Die Praxis Dr. Heier ist bestrebt, in
-											allen Publikationen die Urheberrechte der verwendeten Grafiken und Texte zu
-											beachten, von Praxis Dr. Heier selbst erstellte Grafiken und Texte zu nutzen
-											oder auf lizenzfreie Grafiken und Texte zur&uuml;ckzugreifen. Das Copyright
-											f&uuml;r ver&ouml;ffentlichte, von uns selbst erstellte Objekte bleibt
-											allein beim Autor der Seiten. Eine Vervielf&auml;ltigung oder Verwendung
-											solcher Grafiken oder Texte in anderen elektronischen oder gedruckten
-											Publikationen ist ohne unsere ausdr&uuml;ckliche Zustimmung nicht
-											gestattet.</span></p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<strong><span
-												style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>Rechtswirksamkeit
-												des Haftungsausschlusses</span></strong><span
-											style='font-size:15px;font-family:"Arial",sans-serif;color:black;'><br> <img
-												src="data:image/png;base64,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"
-												alt="image" width="8"><br>&nbsp;Dieser Haftungsausschluss ist als Teil
-											des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen
-											wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden
-											Rechtslage nicht, nicht mehr oder nicht vollst&auml;ndig entsprechen
-											sollten, bleiben die &uuml;brigen Teile des Dokumentes in ihrem Inhalt und
-											ihrer G&uuml;ltigkeit davon unber&uuml;hrt.</span></p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<strong><span
-												style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>Datenschutz</span></strong><span
-											style='font-size:15px;font-family:"Arial",sans-serif;color:black;'><br> <img
-												src="data:image/png;base64,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"
-												alt="image" width="8"><br>&nbsp;Sofern innerhalb des Internetangebotes
-											die M&ouml;glichkeit zur Eingabe pers&ouml;nlicher oder gesch&auml;ftlicher
-											Daten besteht, so erfolgt die Preisgabe dieser Daten seitens des Nutzers auf
-											ausdr&uuml;cklich freiwilliger Basis.</span></p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<span
-											style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span>
-									</p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<span
-											style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span>
-									</p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<strong><u><span
-													style='font-family:"Arial",sans-serif;color:black;'>Datenschutz</span></u></strong>
-									</p>
-									<p
-										style='margin-right:0in;margin-left:0in;font-size:16px;font-family:"Times New Roman",serif;margin:0in;background:white;'>
-										<span style='font-size:15px;font-family:"Arial",sans-serif;color:black;'>Hier
-											m&uuml;sste noch ein ausf&uuml;hrlicher Text zum Datenschutz &ndash; kommt
-											noch &hellip;..</span></p>
+								<b>Frau Dr. Berning</b>, Südring 13, 32429 Minden, Tel. 0571 55433 <br>
+								<br>
+								<b>Drs. Hohage</b>, Haberbreede 18, 32429 Minden, Tel. 05734 969745<br>
+								<br>
+								<b>Drs. Huber</b>, Schleidermannsweg 1b, 32429 Minden, Tel. 0571 51080 <br>
+								<br>
+								<b>Frau Struckmeier</b>, Portastraße 41, 32457 Porta Westfalica, Tel. 0571 52442
+								<br>
 								</p>
 							</div>
 
@@ -482,9 +500,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h2 class="text-white display-4">Immer für Sie da</h2>
-					<p class="text-white mb-5 lead">Far far away, behind the word mountains, far from the countries
-						Vokalia.</p>
+					<h2 class="text-white display-4">Gerne für Sie da</h2>
+					<p class="text-white mb-5 lead">Mit Fürsorge und Kompetenz, für Ihre Gesundheit</p>
 					<div class="row justify-content-center mb-5">
 						<div class="col-md-4"><a href="#anfahrt" class="btn btn-secondary btn-block">Anfahrt <span
 									class="icon-arrow-right"></span></a></div>
@@ -506,11 +523,15 @@
 					<h2 class="h1 mb-4 text-white">Anfahrt & <br> Kontakt</h2>
 					<ul class="probootstrap-blog-list list-unstyled">
 						<li>
-							<h2><span class="date">Name</span><a href="#">Praxis Dr. Bodo Heier <br> Facharzt für
+							<h2 class="text-white" style="color: white !important;"><span class="date">Name</span><a
+									href="#">Praxis Dr. Bodo Heier <br>
+									Frau Kristin Livden Vogt <span style="font-size: 20px;">(angest. Ärztin)</span>
+									<br>Fachärzte für
 									Allgemeinmedizin
 									<br><br></a><span class="date">Adresse</span><a href="#">Südring 13 <br> 32429
 									Minden
-									<br><br></a><span class="date">Kontakt</span><a href="#"> Tel. 0571 - 57775 <br> Fax
+									<br><br></a><span class="date">Kontakt</span><a href="#"> Tel. 0571 - 57775 <br>
+									Fax.
 									0571 - 398 60
 									00</a></h2>
 						</li>
@@ -532,39 +553,51 @@
 			<div class="row mb-5">
 				<div class="col-md-12 text-center">
 					<h2 class="h1">Wir sind ein Team</h2>
-					<p class="lead text-secondary">Far far away, behind the word mountains, far from the countries
-						Vokalia.</p>
+					<p class="lead text-secondary">Mit Herz und Hand für Ihre Gesundheit</p>
 					<div class="row justify-content-center mb-5">
 					</div>
 				</div>
 			</div>
 			<div class="row no-gutters">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-6 prbootstrap-team">
-					<img src="images/person_1.jpeg" alt="Free Template by uicookies.com" class="img-fluid">
-					<div class="probootstrap-person-text">
-						<span class="title">Medical Doctor</span>
-						<span class="name">Dr. Abbey Smith</span>
-					</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-6 prbootstrap-team">
 					<img src="images/person_4.jpeg" alt="Free Template by uicookies.com" class="img-fluid">
 					<div class="probootstrap-person-text">
-						<span class="title">Medical Doctor</span>
-						<span class="name">Dr. Ben Carpio</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-6 prbootstrap-team">
-					<img src="images/person_3.jpeg" alt="Free Template by uicookies.com" class="img-fluid">
-					<div class="probootstrap-person-text">
-						<span class="title">Medical Doctor</span>
-						<span class="name">Dr. Louisa Westwood</span>
+						<span class="name">Facharzt für Allgemeinmedizin</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-6 prbootstrap-team">
 					<img src="images/person_2.jpeg" alt="Free Template by uicookies.com" class="img-fluid">
 					<div class="probootstrap-person-text">
-						<span class="title">Cardiac Surgeon</span>
-						<span class="name">Dr. Mark Sebastian</span>
+						<span class="name">Fachärztin für Allgemeinmedizin</span>
+					</div>
+				</div>
+			</div>
+			<br><br><br>
+			<div class="row no-gutters">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6 prbootstrap-team">
+					<img src="images/person_1.jpeg" alt="Free Template by uicookies.com" class="img-fluid">
+					<div class="probootstrap-person-text">
+						<span class="name">Medizinische Fachangestellte</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6 prbootstrap-team">
+					<img src="images/person_4.jpeg" alt="Free Template by uicookies.com" class="img-fluid">
+					<div class="probootstrap-person-text">
+						<span class="name">Medizinische Fachangestellte</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6 prbootstrap-team">
+					<img src="images/person_3.jpeg" alt="Free Template by uicookies.com" class="img-fluid">
+					<div class="probootstrap-person-text">
+						<span class="name">Medizinische Fachangestellte</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6 prbootstrap-team">
+					<img src="images/person_2.jpeg" alt="Free Template by uicookies.com" class="img-fluid">
+					<div class="probootstrap-person-text">
+						<span class="name">Medizinische Fachangestellte, EVA</span>
 					</div>
 				</div>
 			</div>
@@ -573,15 +606,17 @@
 
 	<footer class="probootstrap-footer">
 		<div class="container">
-			<div class="row mb-5">
+			<div class="row mb-3">
 				<div class="col-md-4">
 					<div class="row probootstrap-copyright">
 						<div class="col-md-12">
-							<p><small>&copy; <script>
+							<p><small>&copy;
+									<script>
 										document.write(new Date().getFullYear())
 									</script> <a href="#">Praxis Dr. Bodo Heier.</a> <br> Alle Rechte vorbehalten. <br>
 									Für die Richtigkeit der Daten wird keine Haftung übernommen. <br> Template von
-									<a href="https://uicookies.com/" target="_blank">uicookies.com</a> </small></p>
+									<a href="https://uicookies.com/" target="_blank">uicookies.com</a>
+								</small></p>
 						</div>
 					</div>
 				</div>
@@ -595,6 +630,8 @@
 						<li><a href="#top">Start</a></li>
 						<li><a href="#team">Team</a></li>
 						<li><a href="#anfahrt">Kontakt</a></li>
+						<li><a href="/impressum.html">Impressum</a></li>
+						<li><a href="/datenschutz.html">Datenschutz</a></li>
 					</ul>
 				</div>
 			</div>
@@ -607,7 +644,8 @@
 	<div id="probootstrap-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-				stroke="#32609e" /></svg></div>
+				stroke="#32609e" />
+		</svg></div>
 
 
 	<script src="js/jquery-3.2.1.min.js"></script>
